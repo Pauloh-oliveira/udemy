@@ -13,7 +13,8 @@ b = 126
 console.log(a, b)
 
 const c = 55
-
+const d = a + b
+console.log(d)
 console.log(c)
 
 //c = 1  não pode ser alterado pq é uma constante.

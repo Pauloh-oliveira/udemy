@@ -1,7 +1,7 @@
-const pord1 = {}
-pord1.nome = 'Celular'
-pord1.preço = 4896.56
-console.log(pord1)
+const prod1 = {}
+prod1.nome = 'Celular'
+prod1.preço = 4896.56
+console.log(prod1)
 
 const pessoa = {
     nome : 'Paulo',

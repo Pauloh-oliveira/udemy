@@ -6,12 +6,12 @@ if (isAtivo == true){
 } else {
     console.log('Valor falso')
 }
-console.log(!!'')
+console.log('1 ' + !!'')
 
-console.log('Os verdadeiros...')
-console.log(!!3)
-console.log(!!-1)
-console.log(!!' ')
+console.log('2 ' + 'Os verdadeiros...')
+console.log('3 ' + !!3)
+console.log('4 ' + !!-1)
+console.log('5 ' + !!' ')
 console.log(!![])
 console.log(!!{})
 console.log(!!Infinity)
