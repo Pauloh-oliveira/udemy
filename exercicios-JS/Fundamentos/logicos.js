@@ -8,3 +8,11 @@ function compras(trabalho1, trabalho2){
 }
 
 console.log(compras(true, true) ) 
+
+const repetir = (frase, vezes) => {
+    for( let i = 0; i < vezes; i++){
+        console.log(`${frase}`)
+    }
+}
+
+repetir('*', 6)

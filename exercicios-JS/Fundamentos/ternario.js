@@ -11,3 +11,8 @@ c = 'Tstando o escpo gloval com c'
 d = 156
 console.log(this.b, module.exports.b)
 console.log(global.b)
+console.log(c == module.exports)
+this.teste = 'Testando o this.'
+
+console.log(this === module.exports)
+console.log(this.teste == module.exports.teste)

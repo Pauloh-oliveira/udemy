@@ -8,3 +8,11 @@ console.log(typeof new Cliente)
 class Produto {}
 console.log(typeof Produto)
 console.log(typeof new Produto())
+
+const Pessoa = {
+    firstName: 'Paulo',
+    lastName: 'Henrique'
+
+}
+console.log(Pessoa.lastName)
+console.log(typeof Pessoa)
