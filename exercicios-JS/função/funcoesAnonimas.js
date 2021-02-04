@@ -11,4 +11,12 @@ imprimirResultado(3,4,soma)
 imprimirResultado(3,4, function (f,l) {
     return f*l
 })
-imprimirResultado(3,4, (d,i) => d)
+imprimirResultado(3,4, (d,i) => d ** i)
+
+const pessoa = {
+    falar: function () {
+        console.log('Opa, tudo bem!')
+    }
+}
+
+pessoa.falar()

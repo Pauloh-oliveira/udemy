@@ -18,7 +18,7 @@ function criarPessoas(nome, sobrenome, civil){
     }
 }
 
-const namorada = criarPessoas('Thayane', 'Przybysewski Machado', 'Casada com Paulo')
+const namorada = criarPessoas('Thayane', 'Machado', 'Casada com Paulo')
 console.log(namorada)
 
 function criarPc(placaMae, processador, gpu) {
@@ -29,5 +29,5 @@ function criarPc(placaMae, processador, gpu) {
     }
 }
 
-const pc2020 = criarPc('X570', 'Ryzen 3950x', 'RTX2080Ti')
-console.log(pc2020)
+const pc2021 = criarPc('X570', 'Ryzen 5800x', 'RTX3070')
+console.log(pc2021)

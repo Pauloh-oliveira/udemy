@@ -35,5 +35,5 @@ function gerarNum(min = 0, max = 100, vezes = 10) {
 gerarNum(0,150,50)
 console.log(aleatorios)
 
-let aleaImpar = aleatorios.filter(n1 => n1 % 3 != 0)
+let aleaImpar = aleatorios.filter(n1 => n1 % 2 != 0)
 console.log(aleaImpar, `tem ${aleaImpar.length} numeros neste array.`)
