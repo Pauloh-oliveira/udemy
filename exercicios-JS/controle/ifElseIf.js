@@ -16,4 +16,5 @@ const imprimeResultado = function(nota){
     }
 }
 
-imprimeResultado(8)
+imprimeResultado(6.99)
+

@@ -6,4 +6,4 @@ function verdade(valor){
     }
 }
 
-verdade({nome: ''})
+verdade('Paulo')

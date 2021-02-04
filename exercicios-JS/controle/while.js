@@ -2,7 +2,7 @@ function aleatorio(min, max){
     const valor = Math.random() * (max - min +1) + min
     return Math.floor(valor)
 }
-let valor = null
+let valor
 c = 1
 var lista = []
 while (valor != 55){
@@ -18,7 +18,7 @@ console.log(lista)
 res = 'S'
 entrada = 'Ss'
 
-// if( res in entrada){ // comportamento difenrete do Python, aqui o IN intera em toda a estrutura
+// if( res in entrada){ // comportamento diferente do Python, aqui o IN intera em toda a estrutura
 //     console.log('Sim')
 // } else {
 //     console.log('Não')

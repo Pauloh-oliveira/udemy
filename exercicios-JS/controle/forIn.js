@@ -5,9 +5,9 @@ for (let i in notas) {
 }
 
 const pessoa = {
-    nome: 'Paulo',
-    Sobre: "henrique",
-    idade: 28
+    firstName: 'Paulo',
+    lastname: "henrique",
+    age: 28
 }
 
 for (let a in pessoa){
