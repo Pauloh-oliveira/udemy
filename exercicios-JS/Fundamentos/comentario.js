@@ -12,6 +12,7 @@ linas
 asdasd
 asdasd
 */
- const lista = [10, 12]
+ let lista = [10, 12]
  console.log(lista)
  lista = [45]
+ console.log(lista)
