@@ -5,6 +5,6 @@ console.log(escola.indexOf('r')) // Localiza o indice do valor em (), se nao tiv
 console.log(escola.substring(0,3), 'aqui') // Retorna o valor do indice do 0 até o (3 -1)
 console.log(escola)
 console.log(escola.replace('r', 'i'))
-console.log('paulo,henrique,de,oliveira'.split(','))
+console.log('paulo,henrique,de,oliveira'.split(',')) // Separa em um array
 console.log(1 + 2 + 3 + '5')
 console.log(escola.length)
