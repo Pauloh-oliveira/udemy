@@ -12,3 +12,5 @@ delete valores[2] // Deixa o local vazio.
 console.log(valores)
 
 console.log('Paulo'.trim())
+
+console.log(!!valores[46])

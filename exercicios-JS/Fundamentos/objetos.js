@@ -9,3 +9,15 @@ const pessoa = {
 }
 
 console.log(pessoa)
+
+const prod2 = {
+    nome: 'bola',
+    obj: {
+        tipo: 'Couro',
+        obj: {
+            cor: 'azul'
+        }
+    }
+}
+
+console.log(prod2.obj.obj.cor)
