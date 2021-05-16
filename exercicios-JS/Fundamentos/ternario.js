@@ -16,3 +16,6 @@ this.teste = 'Testando o this.'
 
 console.log(this === module.exports)
 console.log(this.teste == module.exports.teste)
+
+let pessoa = {nome: "Paulo", falar() {return `Eu sou ${this.nome}`}}
+console.log(pessoa.falar())

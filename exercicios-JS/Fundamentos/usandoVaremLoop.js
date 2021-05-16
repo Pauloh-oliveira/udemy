@@ -5,7 +5,7 @@ for(var i = 0;i < 10;i++){
         console.log(i)
     })
 }
-console.log(i, 'Aqui ta dentro')
+console.log(i, 'Aqui está fora')
 
 funcs[2]()
 funcs[8]()

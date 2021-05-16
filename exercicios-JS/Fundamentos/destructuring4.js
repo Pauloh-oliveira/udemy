@@ -11,3 +11,4 @@ console.log(rand([, 452]))
 console.log(rand([]))
 // console.log(rand()) // esse dará erro
 console.log(rand([1244]))
+console.log(true || false)

@@ -19,8 +19,8 @@ function exec(){
  console.log(exec())
  console.log(cliente.peso)
 
- const teste1 = 'Valor global'
-const teste2 = 'Valor global de let'
+const teste1 = 'Valor global'
+let teste2 = 'Valor global de let'
  function testando(){
      console.log(teste2) // esse aqui nao funciona
     //  let teste2 = 'Valor local'
