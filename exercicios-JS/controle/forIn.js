@@ -14,3 +14,4 @@ for (let a in pessoa){
     console.log(`${a} = ${pessoa[a]}`)
 }
 
+console.log(pessoa['firstName'])

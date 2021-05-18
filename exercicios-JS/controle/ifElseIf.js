@@ -17,4 +17,4 @@ const imprimeResultado = function(nota){
 }
 
 imprimeResultado(6.99)
-
+imprimeResultado(-15)

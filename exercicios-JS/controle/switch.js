@@ -18,4 +18,4 @@ const imprimirResultado = function (nota){
     }
 }
 
-imprimirResultado(5)
+imprimirResultado(8.6)

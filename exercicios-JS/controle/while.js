@@ -7,7 +7,7 @@ c = 1
 var lista = []
 while (valor != 55){
     valor = aleatorio(0,100)
-    console.log(`Sortiado ${valor} - x${c}`)
+    console.log(`Sorteado ${valor} - x${c}`)
     c++
     lista.push(valor)
     }
