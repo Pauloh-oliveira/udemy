@@ -20,3 +20,11 @@ const pessoa = {
 }
 
 pessoa.falar()
+
+function somaResultado(a, b){
+    return a + b
+}
+
+console.log(somaResultado(10,15))
+
+imprimirResultado(5,5, (x, y) => x ** y)

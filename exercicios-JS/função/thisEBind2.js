@@ -5,7 +5,7 @@ function Pessoa(){
     setInterval(function(){
         self.idade++
         console.log(self.idade)
-        if (self.idade == 3) {console.log('Idade igual a 10')}
+        if (self.idade == 10) {console.log('Idade igual a 10')}
     }/*.bind(this)*/, 1000)
 }
 
