@@ -2,7 +2,6 @@
 
 (function(){
     let nome = 'Paulo'
-    console.log('Será executado na hr', nome)
+    let name = 'henrique'
+    console.log(`Será executado na hora ${nome} *** ${name}`)
 })()
-
-// console.log(nome)

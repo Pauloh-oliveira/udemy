@@ -6,8 +6,8 @@ function criarProdutos(nome, preco){
     }
 }
 
-const carro = criarProdutos('Tesla', 1000000)
-const carro2 = criarProdutos('Ferrari', 500000)
+const carro = criarProdutos('Tesla', 1_000_000)
+const carro2 = criarProdutos('Ferrari', 500_000)
 console.log(carro, carro2)
 
 function criarPessoas(nome, sobrenome, civil){
@@ -29,5 +29,5 @@ function criarPc(placaMae, processador, gpu) {
     }
 }
 
-const pc2021 = criarPc('X570', 'Ryzen 5800x', 'RTX3070')
+const pc2021 = criarPc('b550', 'Ryzen 5800x', 'RTX3070')
 console.log(pc2021)
