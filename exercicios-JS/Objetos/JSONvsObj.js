@@ -1,4 +1,8 @@
-const obj = {a:1, b:2, c:3, d:4, soma() { return this.a + this.b+ this.c+ this.d}}
+const obj = {
+        a:1, b:2, c:3, d:4, 
+        soma() { return this.a + this.b+ this.c+ this.d}
+    }
+
 console.log(obj.soma())
 console.log(JSON.stringify(obj))
 

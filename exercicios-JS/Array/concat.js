@@ -1,4 +1,4 @@
-const filhas = ['Ualeskah', 'Cibalena']
+const filhas = ['Valeskah', 'Cibalena']
 const filhos = ['Uoxin', 'uesce']
 
 const todos = filhas.concat(filhos)

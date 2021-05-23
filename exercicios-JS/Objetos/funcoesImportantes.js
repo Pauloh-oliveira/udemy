@@ -26,3 +26,10 @@ const ob1 = {b: 2}
 const ob2 = {c:3, a:5}
 const obj = Object.assign(destino, ob1, ob2)
 console.log(destino, obj)
+
+
+const dados = [a = 123, b = 456, c= 789]
+
+dados.forEach((valor, index, string3) => {
+    console.log(`valor = ${valor} index ${index}  string ${string3}`)
+})
