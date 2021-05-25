@@ -4,3 +4,5 @@
 module.exports = function(nome) {
     return console.log(nome)
 }
+
+console.log(exports == this)

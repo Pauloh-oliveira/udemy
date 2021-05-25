@@ -10,7 +10,7 @@ console.log(conteudo)
 
 fs.readFile(caminho, 'utf-8', (err, conteudo) => {
     const euDepois = JSON.parse(conteudo)
-    console.log(`O salario de ${euDepois.nome} até o final de 2020 é ${euDepois.salario}`)
+    console.log(`O salario de ${euDepois.nome} até o final de 2021 é ${euDepois.salario}`)
 })
 
 const status = require('./arquivo.json')
