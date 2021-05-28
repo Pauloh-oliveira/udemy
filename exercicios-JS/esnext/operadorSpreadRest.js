@@ -5,3 +5,5 @@ console.log(clone)
 const grupoA = ['João', 'Pedro', 'Glória']
 const grupoFinal = ['maria', ...grupoA, 'rafaela']
 console.log(grupoFinal)
+
+console.log(grupoFinal[3])
